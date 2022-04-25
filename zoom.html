@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./zoom.css" />
+    <title>放大镜</title>
+  </head>
+  <body>
+    <div class="zoomContainer">
+      <!-- 图片最上方的蒙板，用来给放大区域做定位 -->
+      <div class="panel"></div>
+      <!-- 显示正常大小图片的地方 -->
+      <div class="imageArea"><img src="./an.jpg" /></div>
+      <!-- 要放大的区域 -->
+      <div class="zoomArea"></div>
+      <!-- 显示放大图片的地方 -->
+      <div class="bigImageArea"><img src="./an.jpg" class="bigImage" /></div>
+    </div>
+  </body>
+  <script type="text/javascript" src="./zoom.js"></script>
+</html>

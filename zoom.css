@@ -1,0 +1,48 @@
+.zoomContainer {
+  width: 400px;
+  height: 400px;
+  background-color: #bfa;
+  position: relative;
+  margin: 0 auto;
+}
+.panel {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /* background-color: #fff; */
+  z-index: 1;
+}
+.imageArea {
+  width: 400px;
+  height: 400px;
+}
+.imageArea > img {
+  width: 100%;
+}
+.zoomArea {
+  width: 50%;
+  height: 50%;
+  background-color: yellowgreen;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.bigImageArea {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background-color: skyblue;
+  left: 400px;
+  top: 0;
+  overflow: hidden;
+  top: 0;
+  display: none;
+}
+.bigImage {
+  width: 200%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
